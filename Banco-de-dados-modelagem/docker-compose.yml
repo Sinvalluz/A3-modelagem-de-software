@@ -8,8 +8,9 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: bd-modelagem
-      MYSQL_USER: sinval
-      MYSQL_PASSWORD: sinval123
+      # Se quiser criar um usuário próprio descomete e coloque seu nome e senha
+      # MYSQL_USER: Seu-nome-de-usuário-aqui
+      # MYSQL_PASSWORD: Sua-senha-aqui
     ports:
       - "3306:3306"
     expose:
